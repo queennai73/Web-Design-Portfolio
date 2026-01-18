@@ -1,0 +1,163 @@
+/* NAV BAR CONTAINER */
+nav {
+  border: 1px solid #a68ac6;
+  margin: 1rem auto;
+  width: 85%;
+  background-color: #f3e7ff;          /* pastel purple */
+  background-repeat: repeat;
+  padding: 0.5rem 0;
+  border-radius: 10px;                /* optional rounded */
+}
+
+/* UL RESET & CENTERING */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* MAKE LINKS HORIZONTAL */
+nav li {
+  display: inline-block;
+  margin: 0 1rem;
+}
+
+/* LINK STYLING */
+nav a {
+  color: #6a4fbf;                     /* darker pastel purple */
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 0.2rem;
+  transition: 0.3s ease;
+}
+
+/* HOVER EFFECT (TROPICAL PASTEL) */
+nav a:hover {
+  color: #ff7aa2;                     /* pastel coral-pink */
+  border-bottom: 4px solid #ff7aa2;   /* underline like example */
+}
+
+nav ul li a.active {
+  color: #ff7aa2 /* dark purple text */
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.home-header {
+  padding: 6rem 2rem;
+  color: white;    /* or pastel contrast */
+  text-align: center;
+  text-shadow: 0 0 6px rgb(245, 133, 133);
+  font-size: 48px;
+}
+
+body {
+  background-image: url("Images/home background.jpg");
+  background-size: cover;       /* fills the entire page */
+  background-position: center;  /* centers the image */
+  background-repeat: no-repeat; /* prevents tiling */
+}
+
+.home-footer {
+   text-align: center;
+   color: white;
+   text-shadow: 0 0 6px rgb(245, 133, 133);
+   font-size: 20px;
+}
+
+.resume-body {
+    background-image: url("Images/resume background.jpeg"); /* your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* makes it feel modern */
+    margin: 2rem;
+}
+
+.about-photo {
+    width: 380px;              /* size of circle */
+    height: 380px;
+    border-radius: 50%;       /* makes it a circle */
+    object-fit: cover;        /* keeps image from warping */
+    position: absolute;
+    bottom: 8px;             /* moves above footer */
+    right: 40px;              /* spacing from right */
+    border: 4px solid white;  /* optional: white border */
+    box-shadow: 0 0 15px rgba(0,0,0,0.2); /* soft shadow */
+}
+
+.about-body {
+    background-image: url("Images/download.jpeg"); /* your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* makes it feel modern */
+    margin: 2rem;
+}
+
+.portfolio-body {
+    margin: 2rem;
+    background-image: url("Images/pink background.png"); /* your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* makes it feel modern */
+}
+
+.portfolio-img {
+    width: 300px;        /* size of each image */
+    height: auto;
+    margin: 1rem;
+    display: inline-block; /* makes them sit next to each other */
+    border-radius: 10px;   /* optional: rounded corners */
+    box-shadow: 0 0 10px rgba(0,0,0,0.15); /* optional shadow */
+}
+
+.portfolio-gallery {
+    text-align: center;
+}
+
+/* each image + banner block */
+.project {
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
+}
+
+/* image styling */
+.portfolio-img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+/* banner styling */
+.project-banner {
+    background-color: #f3e7ff; /* pastel purple */
+    color: #6a4fbf;
+    padding: 0.6rem;
+    border-radius: 0 0 10px 10px;
+    font-weight: bold;
+    border: 1px solid #d6c1f3;
+    border-top: none;
+    margin-top: -5px; /* pulls banner closer to image */
+}
+
+.contact-body {
+    margin: 2rem;
+    background-image: url("Images/download.jpeg"); /* your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* makes it feel modern */
+}
